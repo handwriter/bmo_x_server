@@ -1,4 +1,6 @@
 import requests
 
-result = requests.get("http://127.0.0.1:5000/change_win", headers={"login": "admin", "password": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918", "target_login": 'fewfew'}).json()
+result = requests.get("http://on24.ru/login", params={"login": "test", "password": "test"}).json()
 print(result)
+# import pymysql
+# db = pymysql.connect(host='31.31.198.18', user='u1233588_leonidl', passwd='asddsafghhgf8954MAILS', db='u1233588_db', charset='utf8')
